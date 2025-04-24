@@ -1,0 +1,124 @@
+/* this secton is for navigation */
+#navbar {
+    background: #388E3C;
+    height: 100px;
+    padding: 0px 50px 0px 50px;	
+}
+
+#logo{
+    float: left;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 4px;
+}
+.menu li a {
+    color: #F0E6D6;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu li a:hover {
+    color: #4A3B2B;
+    transition: 0.2s;
+}
+.menu li{
+    display: inline;
+    margin-right: 20px;
+}
+#navmenu {
+    width: 300px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+/* content */
+.about{
+    background-color: #4A3B2B;
+    width: 70%;
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center; 
+    border-radius: 20px;
+}
+#aboutImg{
+    float: left;
+    margin-left: 50px;
+}
+#aboutText{
+    margin-left: 20px;
+}
+#aboutText h2{
+    font-size: 30px;
+    margin: 0px 0px 0px 20px;
+}
+
+#aboutText p{
+    font-size: 20px;
+    margin: 10px 0px 0px 20px;
+    color: #F0E6D6;
+}
+#aboutText button{
+    background-color: #F0E6D6;
+    color: #4A3B2B;
+    border: none;
+    padding: 10px 20px;
+    font-size: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 0px 0px 20px;
+    font-weight: bold;
+}
+#aboutText button:hover{
+    background-color: #4A3B2B;
+    color: #F0E6D6;
+    transition: 0.2s;
+}
+
+/* gallery*/
+.gallery {
+    background-color: #A06A3F;
+    width: 70%;
+    height: 250px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.gallery img {
+    border-radius: 20px;
+    margin: 0px 70px;
+} 
+
+ /*footer*/
+.footer {
+    background-color: #C5A54B;
+    width: 70%;
+    height: 200px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;  
+}
+.footer a{
+    color: #F0E6D6;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 15px;
+}
+.footer a:hover{
+    color: #4A3B2B;
+    transition: 0.2s;
+}
+.footer img{
+    height: 150px;
+    width: 150px;
+    margin-left: 100px
+}
+.footer p{
+    color: #F0E6D6;
+    text-align: left;
+}
